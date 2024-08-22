@@ -4,4 +4,4 @@ This is just a personal Linktree Webpage, so nothing special here. It will proba
 
 # Main Account
 
-Also, this isn't my main github account. I know it is mentioned in the website but here we go. Here is my [real](https://twitter.com/) github account.
+Also, this isn't my main github account. I know it is mentioned in the website but here we go. Here is my [real](https://github.com/hyper096) github account.
