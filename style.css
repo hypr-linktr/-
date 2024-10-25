@@ -2,11 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap');
 
 body {
-    background: linear-gradient(to top, black, rgb(255, 255, 255)); 
-    background-attachment:fixed;
-    height:100%;
-    align-items: center;
-    justify-content: center;
+    background-color: #181818;
 }
 
 .center-container {
@@ -19,7 +15,7 @@ body {
 img {
     width: 225px;
     border-radius: 50%;
-    border: 4px solid #000000;
+    border: 6px solid #000000;
 }
 
 h2 {
@@ -28,6 +24,7 @@ h2 {
     text-align: center;
     position: relative;
     bottom: 15px;
+    color: #ffffff;
 }
 
 h3 {
@@ -36,6 +33,7 @@ h3 {
     text-align: center;
     position: relative;
     bottom: 25px;
+    color: #ffffff;
 }
 
 h4 {
@@ -44,6 +42,7 @@ h4 {
     text-align: center;
     position: relative;
     bottom: 10px;
+    color: #ffffff;
 }
 
 footer {
@@ -52,6 +51,7 @@ footer {
     font-size: 1.275rem;
     text-align: center;
     position: relative;
+    color: #ffffff;
 }
 
 section {
@@ -70,20 +70,20 @@ section.links .link-item {
     display: block;
     width: 80%;
     height: 50px;
-    border: 3px solid rgb(0, 0, 0);
-    box-shadow: 4px 4px rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px rgb(255, 255, 255);
     border-radius: 50px;
-    background-color: rgb(244, 250, 255);
+    background-color: rgb(0, 0, 0);
     padding: 1px 0;
     margin-bottom: 0.5em;
 
     &:hover {
-        background-color: #181818;
-        border: 1px solid rgb(0, 0, 0);
-        color: white;
+        background-color: #ffffff;
+        border: 1px solid rgb(228, 228, 228);
+        color: rgb(0, 0, 0);
         transition: 1s;
-        border: 3px solid rgb(255, 255, 255);
-        box-shadow: 4px 4px rgb(255, 255, 255);
+        border: 3px solid rgb(0, 0, 0);
+        box-shadow: 4px 4px rgb(0, 0, 0);
     }
 }
 
@@ -92,13 +92,13 @@ section.links .link-item a {
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 1.15rem;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     display: block;
     text-decoration: none;
 
     &:hover {
-        color: white;
+        color: rgb(0, 0, 0);
         transition: 1s;
     }
 }
